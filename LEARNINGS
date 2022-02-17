@@ -1,0 +1,24 @@
+Features = can perform all CRUD operations efficiently, also have a delete all contact at onces button, works on react-redux concept
+
+Tech used/Learnings = 0) React-Redux concept is used here, we made one store which has a initial state, we made different actions, which had their own reducers, inside our
+                         components we dispatched to our store using our specific action. we used rootreducer to combine all the reducers
+                      1) index.js is loaded by default when our server is started, everyfile be it .html , .js named index gets loaded by default by the browser, we can say it 
+                         is the landing page for browser
+                      2) filter function and map both return a array, both need an iterator as a parameter, 
+                         filter returns element which fullfill the condition used inside filter, both are used as variable.map()/variable.filter()
+                      3) if the page is blank white w/o any compilation error, wrap any section of code inside {} or see if function call is done with/without (), in some case we 
+                         dont need to use () after function call.
+                      4) useSelector hook is used to access data (present inside our initial state) from any component 
+                      5) composewithdevtools extension used to see live changes in our store
+                      6) always pass key also in props, else no unique key for child error will appear in console
+                      7) store can be made inside the reducer component
+                      8) wrap app.js inside <provider store>
+                      9) redux thunk is used to dispatch to store asyncly
+                     10) paste bootstrap links in html file below <head> tag
+                     11) useState hook was used for variable so that the real time change in the value of variable could be reflected on webpage in real time
+                     12) 
+                         
+Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals
+                          2) every contact needed a unique id so that in future we could locate them easily and perform our operation over that particular contact
+                             so we used npm package short id for this purpose.
+                          3) 
