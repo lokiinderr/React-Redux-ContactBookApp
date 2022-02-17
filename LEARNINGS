@@ -16,9 +16,12 @@ Tech used/Learnings = 0) React-Redux concept is used here, we made one store whi
                       9) redux thunk is used to dispatch to store asyncly
                      10) paste bootstrap links in html file below <head> tag
                      11) useState hook was used for variable so that the real time change in the value of variable could be reflected on webpage in real time
-                     12) 
+                     12) we use link/a tag to make a button, link contains to attrib, which tells where to redirect the browser, routes contains a path attrib, which tells
+                         what component to load once that path is entered in the browser.
+                     13) used useeffect hook to dispatch with the dependency array involved in our useeffect, dependency array contains quantites on changing of whose the 
+                         useeffect hook triggers. so whenever value of those dependency changes the useeffect gets triggered and data is dispatched to store.
                          
 Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals
                           2) every contact needed a unique id so that in future we could locate them easily and perform our operation over that particular contact
                              so we used npm package short id for this purpose.
-                          3) 
+                         
