@@ -22,11 +22,12 @@ export const deleteContact = (id) => ({
   payload: id 
 })
 
+// enters id of all contacts in an selectedContacts array
 export const selectContact = (ids) => ({
   type: SELECT_CONTACT,
   payload: ids
 })
-
+// when we uncheck our checkbox removes all ids from array which were earlier stored in it by selectContact action
 export const clearContact = () => ({
   type: CLEAR_CONTACT,
 })
