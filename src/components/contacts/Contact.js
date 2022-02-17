@@ -18,7 +18,9 @@ export const Contact = () => {
         }
     },[selectAll])
   return <div>
-        {
+        {   // we cant use if else here so we used ternary operator here and to make it work 
+            // as our desire we made selected_contacts array, whose length tell us if checkbox is
+            // ticked or not
             selected_contacts.length>0 ? (<button className="btn btn-danger mb-3" onClick={()=> dispatch(deleteAllContact())}>Delete All</button>):null
         }
             <table className="table shadow table-striped">
