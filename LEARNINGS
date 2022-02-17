@@ -24,4 +24,6 @@ Tech used/Learnings = 0) React-Redux concept is used here, we made one store whi
 Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals
                           2) every contact needed a unique id so that in future we could locate them easily and perform our operation over that particular contact
                              so we used npm package short id for this purpose.
+                          3) if we want to work with real time APIs where the we get dynamic data unlike our current model where the JSON data is locally passed, we got
+                             to use Redux Thunk so that we can dispatch to store asyncly.
                          
