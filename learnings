@@ -1,0 +1,7 @@
+Features = can perform all CRUD operations efficiently, also have a delete all contact at onces button
+
+Tech used/Learnings = 1) index.js is loaded by default when our server is started, everyfile be it .html , .js named index gets loaded by default by the browser, we can say it is the
+                    landing page for browser
+                      2) 
+Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals
+                          2) 
