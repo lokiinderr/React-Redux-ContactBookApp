@@ -23,7 +23,7 @@ Tech used/Learnings = 0) React-Redux concept is used here, we made one store whi
                      14) in mongoDB (not used in this project though) , use camelCase, end with DB, make singular(but collections in plural and all lowercase).
                          
 Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals, but we can use if statements while working outside return <div></div>
-                             i.e. while working in JSX we can use if statements, like inside any callback functions.
+                             i.e. while working in JSX we can use if statements, like inside any callback functions, we can also use for loop inside reducers files.
                           2) every contact needed a unique id so that in future we could locate them easily and perform our operation over that particular contact
                              so we used npm package short id for this purpose.
                           3) if we want to work with real time APIs where the we get dynamic data unlike our current model where the JSON data is locally passed, we got
