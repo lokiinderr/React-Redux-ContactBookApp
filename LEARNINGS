@@ -31,4 +31,11 @@ Problem faced-solutions = 1) if statements can't be used in html so we use terna
                           4) we use the length funtion of array to find the length of the array and from this information we do our further analysis, like for instance,
                              we can tell if any feature has to be activated or not by just checking if array.length>0;  this way we are trying to activate the feature only
                              when the array is not empty.
-                         
+                          5) changing values into array types values:= 
+                                    let arr = state.contacts.filter((contact)=>contact.id==action.payload);
+                                    // converting arr values into an array values
+                                    arr=arr.values();
+                                    for(let val of arr){
+                                        arr=val;
+                                    }
+
