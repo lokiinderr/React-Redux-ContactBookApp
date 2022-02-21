@@ -20,6 +20,7 @@ Tech used/Learnings = 0) React-Redux concept is used here, we made one store whi
                          what component to load once that path is entered in the browser.
                      13) used useeffect hook to dispatch with the dependency array involved in our useeffect, dependency array contains quantites on changing of whose the 
                          useeffect hook triggers. so whenever value of those dependency changes the useeffect gets triggered and data is dispatched to store.
+                     14) in mongoDB (not used in this project though) , use camelCase, end with DB, make singular(but collections in plural and all lowercase).
                          
 Problem faced-solutions = 1) if statements can't be used in html so we use ternary operator for conditionals
                           2) every contact needed a unique id so that in future we could locate them easily and perform our operation over that particular contact
