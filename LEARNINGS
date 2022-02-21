@@ -3,7 +3,7 @@ Features = can perform all CRUD operations efficiently, also have a delete all c
 Tech used/Learnings = 0) React-Redux concept is used here, we made one store which has a initial state, we made different actions, which had their own reducers, inside our
                          components we dispatched to our store using our specific action. we used rootreducer to combine all the reducers
                       1) index.js is loaded by default when our server is started, everyfile be it .html , .js named index gets loaded by default by the browser, we can say it 
-                         is the landing page for browser
+                         is the landing page for browser, component name in react should start with a capital letter.
                       2) filter function and map both return a array, both need an iterator as a parameter, 
                          filter returns element which fullfill the condition used inside filter, both are used as variable.map()/variable.filter()
                       3) if the page is blank white w/o any compilation error, wrap any section of code inside {} or see if function call is done with/without (), in some case we 
